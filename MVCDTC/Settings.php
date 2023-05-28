@@ -15,7 +15,6 @@ class Settings{
     const MYSQLI_USER_NAME = "";
     const MYSQLI_PASSWORD = "";
     const MYSQLI_DB_NAME = "";
-    $a=::;
 
     const LOGFILESPATH = "/var/www/project/log/";
     const NAMESPACE_BASE = 'MVCDTC';

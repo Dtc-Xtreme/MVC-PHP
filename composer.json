@@ -1,0 +1,22 @@
+{
+    "name": "dtc-xtreme/project",
+    "description": "MVC PROJECT",
+    "autoload": {
+        "psr-4": {
+            "MVCProject\\": "src/",
+            "MVCDTC\\": "MVCDTC/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dtc-xtreme",
+            "email": "dtc-xtreme@hotmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "10.0.16"
+    },
+    "require": {
+        "monolog/monolog": "^3.1"
+    }
+}

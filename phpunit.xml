@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" bootstrap="vendor/autoload.php" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
+  <coverage includeUncoveredFiles="true" processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">./src/utils/</directory>
+    </include>
+    <report>
+      <html outputDirectory="./coverage/html/"/>
+    </report>
+  </coverage>
+  <testsuites>
+    <testsuite name="MVCProjectTests">
+      <directory>./test/</directory>
+    </testsuite>
+  </testsuites>
+  <logging/>
+</phpunit>

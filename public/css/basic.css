@@ -1,0 +1,41 @@
+/* @font-face {
+    font-family: Exo-Regular;
+    src: url('/fonts/exo/Exo-Regular.ttf');
+}
+
+@font-face {
+    font-family: Exo-Medium;
+    src: url('/fonts/exo/Exo-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('/fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url('/fonts/montserrat/Montserrat-ExtraBold.ttf');
+} */
+
+.bg-darkgray{
+    background-color: #202020 !important;
+}
+
+html{
+    /* font-family: Montserrat-ExtraBold !important; */
+    font-size: 1em;
+}
+
+H1{
+    font-size: 2.5em !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+}
+
+.nav-sticky{
+    z-index: 99;
+    position: sticky !important;
+    top: 0;
+}

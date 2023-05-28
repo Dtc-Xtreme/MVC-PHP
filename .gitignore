@@ -2,4 +2,4 @@
 #/vendor/
 composer.lock
 log
-#MVCDTC/Settings.php
+MVCDTC/Settings.php

@@ -28,6 +28,28 @@
 
     <div class="col-12">
         <div class="card h-100 mb-3">
+            <h5 class="card-header text-center">NFC Reader/Writer & Tags</h5>
+            <div class="row g-0">
+                <div class="col-md-2">
+                    <img src="/body/images/nfc_reader.png" class="w-100 p-3 m-auto" alt="...">
+                </div>
+                <div class="col-md-10">
+                    <div class="card-body">
+                        <h3>NFC-Reader</h3>
+                        <p class="card-text">
+                            Er wordt gebruik gemaakt van een ACR122U NFC-reader die eenvoudig via USB kan worden aangesloten. Je kunt meer informatie vinden over deze reader via deze <a href="http://www.acs.com.hk/en/products/3/acr122u-usb-nfc-reader/" target="_blank">link</a>.                        </p>
+                        <h3>NFC-Tag</h3>
+                        <p class="card-text">
+                            Dit voorbeeld toont het gebruik van NGT215 (540 bytes) en NGT216 (924 bytes) tags. Er zijn echter veel meer mogelijkheden beschikbaar. Voor meer informatie kun je terecht op deze <a href="https://www.shopnfc.com/en/content/6-nfc-tags-specs" target="_blank">link</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="card h-100 mb-3">
             <h5 class="card-header text-center">Data</h5>
             <div class="row g-0">
                 <div class="col-lg-6 col-md-3 col-sm-3">
@@ -38,15 +60,13 @@
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-7">
                     <div class="card-body">
-                        <h3>NFC-TAG</h3>
-                        <p class="card-text">
-                            Dit voorbeeld toont het gebruik van NGT215 (540 bytes) en NGT216 (924 bytes) tags. Er zijn echter veel meer mogelijkheden beschikbaar. Voor meer informatie kun je terecht op deze <a href="https://www.shopnfc.com/en/content/6-nfc-tags-specs" target="_blank">link</a>.
-                            <br/><br/>
-                            Bij het uitlezen van de gebruikte tag valt op dat de opgeslagen gegevens in JSON-formaat zijn. Deze data bevat alle benodigde informatie die we later kunnen gebruiken in een applicatie. Dit is duidelijk te zien in de bijgevoegde afbeelding.
-                        </p>
                         <h3>Software</h3>
                         <p class="card-text">
-                            Deze tool biedt de mogelijkheid om gegevens op te slaan en op te halen. Het ondersteunt diverse soorten data, zoals te zien is op de afbeelding, waarbij JSON als tekst kan worden toegevoegd. Je kunt deze tool vinden op <a href="https://www.wakdev.com/fr/apps/nfc-tools-pc-mac.html" target="_blank">link</a>.
+                            Deze tool biedt de mogelijkheid om gegevens op te slaan en op te halen. Het ondersteunt diverse soorten data, zoals te zien is op de afbeelding, waarbij JSON als tekst kan worden toegevoegd.
+                            <br><br>
+                            Bij het uitlezen van de gebruikte tag valt op dat de opgeslagen gegevens in JSON-formaat zijn. Deze data bevat alle benodigde informatie die we later kunnen gebruiken in een applicatie. Dit is duidelijk te zien in de bijgevoegde afbeelding.
+                            <br><br>
+                            Je kunt deze tool vinden op <a href="https://www.wakdev.com/fr/apps/nfc-tools-pc-mac.html" target="_blank">link</a>.
                         </p>
                     </div>
                 </div>
@@ -56,7 +76,7 @@
 
     <div class="col-12">
         <div class="card h-100 mb-3">
-            <h5 class="card-header text-center">Voorbeeld</h5>
+            <h5 class="card-header text-center">Demo</h5>
             <div class="row g-0">
                 <div class="col-lg-5 col-md-3 col-sm-3">
                     <video class="w-100 p-3 m-auto" controls>

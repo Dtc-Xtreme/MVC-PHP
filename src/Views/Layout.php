@@ -3,7 +3,7 @@ use MVCDTC\Services\Authentication;
 use MVCDTC\Services\Services;
 $auth = Services::GetInstance()->GetService(Authentication::class);
 ?>
-<html class="">
+<html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Steven Kazmierczak</title>

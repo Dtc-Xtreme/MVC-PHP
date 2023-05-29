@@ -8,7 +8,7 @@
             <h5 class="card-header text-center">MVC Framework for PHP</h5>
             <div class="row g-0">
                 <div class="card-body">
-                    <p class="card-text">Ik was zeer geinterreseert hoe een mvc framework in de achtergrond werkt. Dus heb ik besloten er een te maken van scratch. Aangezien dat php wat minder strikt is heb ik gekozen voor dit in php te doen. Dus de belangrijkste onderdelen van een mvc framwork is het opdelen in controllers en views. Hiervoor gaan we ook een router voorzien die aan de and van een routing table kan kiezen naar waar het moet gaan maar ook een conventie bedenken om de normale routering te doen. Naast dit is er ook DPI voorzien voor de controllers alsook voor de middelware en services. Deze website werkt op dit framework.</p>
+                    <p class="card-text">Ik was zeer geïnteresseerd in het begrijpen van de werking van een MVC-framework, dus besloot ik er zelf een vanaf nul te maken. Omdat PHP iets minder strikt is, koos ik ervoor om het in PHP te doen. De belangrijkste componenten van een MVC-framework zijn de controllers en views. Daarom gaan we ook een router implementeren die aan de hand van een routingtabel kan bepalen waar de aanvraag naartoe moet, en we zullen ook een conventie bedenken voor normale routing. Daarnaast hebben we Dependency Injection (DI) voorzien voor de controllers, evenals voor middleware en services. Het framework is nog niet volledig ontwikkeld en wordt niet aanbevolen voor gebruik in productieomgevingen.</p>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
         <div class="card h-100 mb-3">
             <h5 class="card-header text-center">Github</h5>
             <div class="row g-0 text-center">
-                <a href="https://github.com/Dtc-Xtreme" target="_blank">
+                <a href="https://github.com/Dtc-Xtreme/MVCDTC" target="_blank">
                     <img src="/body/github.svg" class="w-100 p-3 rounded-circle" alt="...">
                     Link
                 </a>

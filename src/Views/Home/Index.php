@@ -5,14 +5,19 @@
 <div class="row g-4">
     <div class="col-lg-10 col-md-12">
         <div class="card h-100 mb-3">
-            <h5 class="card-header text-center">Steven Kazmierczak - Full Stack Development</h5>
+            <h5 class="card-header text-center">Steven Kazmierczak</h5>
             <div class="row g-0">
                 <div class="col-lg-2 col-md-3 col-sm-3">
                     <img src="/body/steven.jpg" class="w-100 p-3 rounded-circle m-auto" alt="...">
                 </div>
                 <div class="col-lg-10 col-md-9 col-sm-9">
                     <div class="card-body">
-                        <p class="card-text">Because of my strong interest I keep track of new developments in software and hardware. In my spare time I manages a few projects involving programming but also deploying infrastructures like servers and networks. I'm also very interested in learning new things. I like to annualize problems and find better ways to solve them but also to make them more efficient.</p>
+                        <p class="card-text">
+                            Van jongs af aan heb ik een grote interesse in de informatica, vooral op het gebied van hardware, zoals het assembleren van pc's en kennis over netwerk- en serverhardware. Na verloop van tijd verschoof mijn interesse naar webontwikkeling en softwareontwikkeling op verschillende platformen. Ik ben enthousiast over het vergaren van uitgebreide kennis in diverse IT-domeinen. Het is altijd interessant om te weten welke stappen er nodig zijn met betrekking tot de infrastructuur bij het implementeren van een applicatie, zowel voor effecientie alsook de samenwerking verbeter.<br/><br/>
+                            Ik heb een buitengewoon boeiend traject afgelegd, van het niet behalen van een middelbareschooldiploma tot het behalen van een HBO5-diploma via avondonderwijs aan de PXL, terwijl ik gedurende drie jaar in wisselende diensten werkte. Nu nadert dit traject van de bacheloropleiding zijn einde en ik kijk vol verwachting uit naar het behalen van mijn bachelordiploma. Ik heb deze uitdaging aangenomen om mijn vaardigheden te testen en te ontdekken welke mogelijkheden er nog meer zijn om te groeien. Deze ervaring heeft een diepgaande invloed gehad op mijn denkwijze en doorzettingsvermogen, en heeft me doen inzien dat je veel meer kunt bereiken dan je zou verwachten wanneer je echt gemotiveerd bent.<br/><br/>
+                            Op dit moment werk ik als voorraadbeheerder bij Scania, waarbij ik verantwoordelijk ben voor het opsporen van afwijkingen in de voorraad en het identificeren van foutieve processen, zodat we deze kunnen terugkoppelen naar de juiste afdelingen en in de toekomst kunnen voorkomen. Echter, mijn passie ligt in de IT en dat is ook de richting waarin ik mezelf verder wil ontwikkelen. <br/><br/>
+                            De geselecteerde projecten omvatten MVCDTC, Blazor en het gebruik van NFC. Je kunt deze vinden bovenaan in het menu, waar ze verder worden uitgediept.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -33,7 +38,7 @@
 
     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
         <div class="card h-100">
-            <h5 class="card-header">Experience</h5>
+            <h5 class="card-header">Werkervaring</h5>
             <div class="card-body">
                 <ol class="list-group">
                     <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -79,7 +84,7 @@
 
     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
         <div class="card h-100">
-            <h5 class="card-header">Education</h5>
+            <h5 class="card-header">Opleiding</h5>
             <div class="card-body">
                 <ol class="list-group">
                     <li class="list-group-item d-flex justify-content-between align-items-start">

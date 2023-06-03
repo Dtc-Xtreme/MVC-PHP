@@ -15,12 +15,6 @@ $app->AddRoute(
     $action = "Index"
 );
 
-$app->AddRoute(
-    $route = "/blazor/lala",
-    $controller = "Blazor",
-    $action = "Index"
-);
-
 ## Middelware ##
 //$app->AddMiddleware(Authentication::class, "Authentication");
 

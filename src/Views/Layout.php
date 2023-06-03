@@ -37,6 +37,12 @@ $auth = Services::GetInstance()->GetService(Authentication::class);
                     <li class="nav-item">
                         <a class="nav-link" href="/nfc">NFC</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/reflection">Reflectie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home/future">Toekomst</a>
+                    </li>
                 </ul>
             </div>
         </div>

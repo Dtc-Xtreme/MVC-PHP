@@ -14,7 +14,13 @@ class HomeController extends Controller{
         $this->View();
     }
 
-    //$this->Redirect("error/pagenotfound");
+    public function Reflection(){
+        $this->View();
+    }
+
+    public function Future(){
+        $this->View();
+    }
 
 }
 ?>

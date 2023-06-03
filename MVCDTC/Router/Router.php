@@ -65,4 +65,5 @@ class Router{
         }
     }
 }
+//$this->Redirect("error/pagenotfound");
 ?>

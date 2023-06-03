@@ -28,6 +28,46 @@
 
     <div class="col-12">
         <div class="card h-100 mb-3">
+            <h5 class="card-header text-center">Structuur MVCDTC</h5>
+            <div class="row g-0">
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <img src="/body/images/mvcdtc_structure_framework.jpg" class="w-100 p-3 m-auto" alt="...">
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-10">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Het MVCDTC-project omvat een uitgebreid scala aan functionaliteiten die volledig geïntegreerd zijn in het framework. Deze functionaliteiten bieden een diepgaand inzicht in de reeds geïmplementeerde aspecten van het project. Door middel van het MVCDTC-project wordt een holistisch beeld verkregen van de verschillende componenten en modules die zijn ontwikkeld en geïmplementeerd. Het project bevat een breed scala aan functies die de efficiëntie, flexibiliteit en bruikbaarheid van het framework vergroten. Door deze functionaliteiten in één samenhangend geheel te combineren, wordt een solide basis gelegd voor verdere ontwikkeling en verbetering van het framework. <br/><br/>
+                            Dit framework is ontworpen met een afgeschermd codeontwerp, wat betekent dat er geen wijzigingen door de gebruiker nodig zijn. De basiscode zal alleen veranderen via regelmatige updates. Gebruikers kunnen vertrouwen op de stabiliteit en consistentie van het framework zonder zelf codeaanpassingen te hoeven doen. Door deze aanpak kunnen gebruikers zich concentreren op het effectieve gebruik van het framework en de functionaliteiten ervan, terwijl ze gerustgesteld worden dat toekomstige updates automatisch zullen worden geïmplementeerd zonder dat dit hun werk beïnvloedt. Het afgeschermde codeontwerp zorgt voor een naadloze en probleemloze ervaring voor gebruikers, waarbij ze kunnen profiteren van eventuele verbeteringen en nieuwe features die in de updates worden geïntroduceerd.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="col-12">
+        <div class="card h-100 mb-3">
+            <h5 class="card-header text-center">Structuur implementatie</h5>
+            <div class="row g-0">
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <img src="/body/images/mvcdtc_structure_project.jpg" class="w-100 p-3 m-auto" alt="...">
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-10">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Op hetzelfde niveau als het MVCDTC-project bevinden zich de "public" en "src" directories, die een cruciale rol spelen bij het gebruik van het MVCDTC-framework. De "public" directory is publiekelijk toegankelijk via de webserver, terwijl de rest van de directories afgeschermd is voor externe toegang. De "public" directory wordt gebruikt voor het opslaan van bestanden zoals stylesheets, JavaScript-bestanden, afbeeldingen en meer. Bovendien wordt de "index.php" hier geplaatst, wat het startpunt is van het framework. <br/><br/>
+                            Aan de andere kant bevindt zich de "src" directory, waarin je controllers en views kunt aanmaken. Deze directory biedt een gestructureerde omgeving voor het ontwikkelen van de functionele componenten van je applicatie. Hier kun je de logica van je applicatie beheren en de interactie tussen de gebruikersinterface en de gegevensbronnen regelen. <br/><br/>
+                            Dankzij deze directorystructuur kunnen ontwikkelaars efficiënt werken aan het MVCDTC-framework. De "public" directory fungeert als het toegangspunt voor de applicatie vanuit de browser, terwijl de "src" directory een georganiseerde plek biedt voor het maken en beheren van de belangrijkste onderdelen van het framework. Door deze scheiding wordt een duidelijke scheiding bereikt tussen het publieke en het interne gedeelte van de applicatie, waardoor de veiligheid en modulariteit van het MVCDTC-framework worden verbeterd.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <div class="card h-100 mb-3">
             <h5 class="card-header text-center">Startup</h5>
             <div class="row g-0">
                 <div class="col-lg-5 col-md-3 col-sm-3">

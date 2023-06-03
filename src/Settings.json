@@ -1,8 +1,8 @@
 {
     "DB_SERVER": "10.0.10.17:3309",
-    "DB_USER": "root",
-    "DB_PASSWORD": "admin",
-    "DB_AUTH": "auth",
+    "DB_USER": "*",
+    "DB_PASSWORD": "*",
+    "DB_AUTH": "*",
     "LOGFILESPATH": "/var/www/project/log/",
     "NAMESPACE": "MVCProject"
 }

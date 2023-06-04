@@ -76,8 +76,7 @@
                 <div class="col-lg-7 col-md-9 col-sm-9">
                     <div class="card-body">
                         <p class="card-text">
-                            Dit is je index pagina die toegangkelijk is van buitenaf. En elke request/retouring word terug naar deze pagina gestuurd met behulp van een .htacces file.
-                        </p>
+                            Dit is de indexpagina die extern toegankelijk is. Elke inkomende request en response wordt via een .htaccess-bestand naar deze pagina gestuurd. Hiermee wordt de routing van het verkeer naar de juiste locatie beheerd.                        </p>
                         <h3>.htacces</h3>
                         <p class="ps-3">
                             <code>
@@ -110,8 +109,7 @@
                 <div class="col-lg-5 col-md-9 col-sm-9">
                     <div class="card-body">
                         <p class="card-text">
-                           Hier komt alles samen om verwerkt te worden. Zoals Requesten, Services, Middleware en Routes. Hier kan je ook kiezen als services of Middleware geinstanceerd moeten worden bij het opstarten van de app.
-                        </p>
+                            Op deze plek komen alle componenten samen om verwerkt te worden, zoals requests, services, middleware en routes. Het biedt de mogelijkheid om services en middleware al dan niet bij het opstarten van de app te instantiëren, afhankelijk van de configuratievoorkeuren. Hier worden alle vereiste elementen geïntegreerd en gestructureerd om een goed functionerende en aanpasbare applicatie te creëren.                        </p>
                         <h3>Functions</h3>
                         <ul>
                             <li>AddRoute (toevoegen van routes)</li>
@@ -135,8 +133,7 @@
                 <div class="col-lg-5 col-md-9 col-sm-9">
                     <div class="card-body">
                         <p class="card-text">
-                           Services is een Singleton class waar alle servives toegevoegd worden tijdens het opstarten alsook geinstancieerd kunnen worden indien nodig. Deze services worden gebruikt door de DPI.
-                        </p>
+                            De Services-klasse fungeert als een Singleton waarin alle services worden toegevoegd tijdens het opstarten van de applicatie en indien nodig geïnstantieerd kunnen worden. Deze services worden vervolgens gebruikt door de DPI (Dependency Injection) om de benodigde functionaliteit te leveren.                        </p>
                         <h3>Functions</h3>
                         <ul>
                             <li>AddService (toevoegen van een service)</li>
@@ -159,7 +156,7 @@
                 <div class="col-lg-7 col-md-9 col-sm-9">
                     <div class="card-body">
                         <p class="card-text">
-                           In deze class wordt gebruik gemaakt van <a href="https://www.php.net/manual/en/intro.reflection.php" target="_blank">reflection</a>. Dit is nodig om te kijken wat er een functie van parameter gevraagd worden zodat deze geinjecteerd kunnen worden. De services die toegevoegd worden in de Startup kunnen hier gebruikt worden.
+                            In deze klasse wordt gebruikgemaakt van <a href="https://www.php.net/manual/en/intro.reflection.php" target="_blank">reflection</a> om te achterhalen welke functie welke parameters nodig heeft, zodat deze correct kunnen worden geïnjecteerd. De services die zijn toegevoegd in de Startup-klasse kunnen hier worden gebruikt. Reflectie speelt een cruciale rol bij het dynamisch analyseren en aanpassen van de structuur van de applicatie op basis van de vereisten van elke functie. Dit stelt de applicatie in staat om flexibel en adaptief te zijn bij het leveren van de juiste services waar dat nodig is.
                         </p>
                         <h3>Functions</h3>
                         <ul>
@@ -181,8 +178,7 @@
                 <div class="col-lg-3 col-md-9 col-sm-9">
                     <div class="card-body">
                         <p class="card-text">
-                           De Request bevat alle informatie die nodig is voor routing. Zoals de router, view en parameters. Hier wordt de requested url opgeschoont naar een valid request. Alsook het extracten van de controller en view naam. Deze wordt automatisch geinstancieerd door de MVCApplication.
-                        </p>
+                            De Request bevat alle benodigde informatie voor de routing, zoals de router, view en parameters. Het zorgt voor het schoonmaken van de opgevraagde URL naar een geldig verzoek en het extraheren van de controller- en viewnaam. Deze worden automatisch geïnstantieerd door de MVCApplication, waardoor de juiste controller en view worden geladen op basis van de request. Dit proces zorgt voor een naadloze afhandeling van de routing en het dynamisch renderen van de juiste content op basis van de ontvangen request.                        </p>
                         <h3>Functions</h3>
                         <ul>
                             <li>CreateSectionList (het opschonen van de request en de nodige variable opvullen)</li>
@@ -211,8 +207,7 @@
                 <div class="col-lg-3 col-md-9 col-sm-9">
                     <div class="card-body">
                         <p class="card-text">
-                           Als er een request is wordt deze door de router gestuurd om te controleren als er voor een router aanwezig is voor deze route alsook een view. Als beide in orde zijn word de controller geinstancieerd met de nodige DPI. Zoniet wordt er een "Page Not Found" getoond.
-                        </p>
+                            Wanneer er een request wordt ontvangen, wordt deze door de router geleid om te controleren of er een geldige router en bijbehorende view zijn voor deze route. Als beide aanwezig zijn, wordt de controller geïnstantieerd met de benodigde afhankelijkheden via Dependency Injection. Als er echter geen geldige router of view wordt gevonden, wordt er een "Page Not Found" weergegeven, waardoor de gebruiker op de hoogte wordt gebracht dat de opgevraagde pagina niet beschikbaar is.                        </p>
                     </div>
                 </div>
             </div>
@@ -229,13 +224,11 @@
                 <div class="col-lg-5 col-md-9 col-sm-9">
                     <div class="card-body">
                         <p class="card-text">
-                           Alle controller erven over van deze class. Als eerste wordt er gekenen naar de request welke view het wil laden. Dit gebeurt met de "CallRequestedMethod()". Alles wat nodig is voor de opbouw van de pagina wordt hier aangeroepen. <br/><br/>
-                           
+                            Alle controllers erven van deze klasse. In de eerste plaats wordt de request geanalyseerd om te bepalen welke view geladen moet worden, dit gebeurt met behulp van de "CallRequestedMethod()". Hier worden alle benodigde stappen uitgevoerd voor het opbouwen van de pagina. Alle vereiste functionaliteiten en componenten worden hier aangeroepen en verwerkt om de gewenste weergave van de pagina te realiseren.                           
                         </p>
                         <h3>Verbetering</h3>
                         <p>
-                            Het zou veel beter zijn om de opbouw van de pagina niet door de controller te laten beheren, maar eerder als een response terug te geven. Op deze manier kan er middleware worden toegepast voordat de pagina wordt weergegeven. Ook de keuze voor andere uitvoer dan alleen een View, zoals bijvoorbeeld JSON, zou een goede optie zijn.
-                        </p>
+                            Een betere aanpak zou zijn om de verantwoordelijkheid voor de opbouw van de pagina niet bij de controller te leggen, maar eerder als een response terug te geven. Hierdoor kan er middleware worden toegepast voordat de pagina wordt weergegeven, wat flexibiliteit en aanpassingsmogelijkheden biedt. Bovendien kan er zo ook gekozen worden voor andere outputformaten dan alleen een View, zoals bijvoorbeeld JSON. Deze aanpak maakt het mogelijk om meer diverse en dynamische mogelijkheden te implementeren in de verwerking en presentatie van de pagina.                        </p>
                     </div>
                 </div>
             </div>
@@ -252,8 +245,7 @@
                 <div class="col-lg-7 col-md-9 col-sm-9">
                     <div class="card-body">
                         <p class="card-text">
-                        In de controller kunnen logica en functionaliteit worden geschreven die vervolgens gebruikt kunnen worden om bijvoorbeeld gegevens door te sturen naar een view. Dit stelt de controller in staat om de benodigde gegevens te verzamelen, deze te verwerken en ze vervolgens door te geven aan de view, zodat de juiste informatie kan worden weergegeven aan de gebruiker.
-                        </p>
+                            De controller biedt de mogelijkheid om logica en functionaliteit te implementeren die kunnen worden gebruikt om gegevens naar een view door te sturen. Hiermee kan de controller de benodigde gegevens verzamelen, verwerken en doorgeven aan de view, zodat de juiste informatie aan de gebruiker kan worden getoond. Dit stelt de controller in staat om een brug te vormen tussen de verschillende componenten van de applicatie, waarbij de benodigde gegevens worden verzameld en gemanipuleerd voordat ze worden doorgegeven aan de view voor weergave.                        </p>
                         <h3>Routes / Views</h3>
                         <ul>
                             <li>Index - "/"</li>

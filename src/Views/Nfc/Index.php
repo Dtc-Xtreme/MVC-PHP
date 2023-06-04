@@ -8,7 +8,9 @@
             <h5 class="card-header text-center">Near-Field Communication</h5>
             <div class="row g-0">
                 <div class="card-body">
-                    <p class="card-text">NFC, oftewel Near Field Communication, is een draadloze technologie voor het uitwisselen van gegevens tussen apparaten op korte afstand. Het wordt gebruikt voor diverse toepassingen, zoals contactloze betalingen, bestandsdeling, apparaatkoppeling en identificatie. NFC-kaarten zijn beschikbaar in verschillende types, waaronder betaalkaarten, toegangskaarten, identificatiekaarten en lidmaatschapskaarten. Ze maken snelle en veilige gegevensoverdracht mogelijk, waarbij apparaten eenvoudigweg dicht bij elkaar gehouden of tegen elkaar getikt moeten worden. NFC biedt gebruikers gemak en efficiëntie bij het uitvoeren van taken en het delen van informatie.</p>
+                    <p class="card-text">
+                    Ik zocht naar een alternatief om de fysieke licentiekaart van een club te vervangen door een elektronisch middel. Dit zou het gemakkelijker maken om een speler op te zoeken of in te voeren bij het inschrijven voor een toernooi. Tijdens mijn zoektocht naar mogelijke opties, kwam ik NFC tegen.<br/><br/>    
+                    NFC, oftewel Near Field Communication, is een draadloze technologie voor het uitwisselen van gegevens tussen apparaten op korte afstand. Het wordt gebruikt voor diverse toepassingen, zoals contactloze betalingen, bestandsdeling, apparaatkoppeling en identificatie. NFC-kaarten zijn beschikbaar in verschillende types, waaronder betaalkaarten, toegangskaarten, identificatiekaarten en lidmaatschapskaarten. Ze maken snelle en veilige gegevensoverdracht mogelijk, waarbij apparaten eenvoudigweg dicht bij elkaar gehouden of tegen elkaar getikt moeten worden. NFC biedt gebruikers gemak en efficiëntie bij het uitvoeren van taken en het delen van informatie.</p>
                 </div>
             </div>
         </div>

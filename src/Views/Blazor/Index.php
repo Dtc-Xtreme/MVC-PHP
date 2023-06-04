@@ -114,7 +114,7 @@
                 </div>
 
                 <div class="col-md-3 m-auto">
-                    <video class="w-100 p-3 m-auto" controls>
+                    <video class="w-100 p-3 m-auto" controls muted>
                         <source src="/body/images/maui_native.mp4" type="video/mp4">
                     </video>
                 </div>

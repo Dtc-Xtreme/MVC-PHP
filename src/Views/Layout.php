@@ -41,7 +41,7 @@ $auth = Services::GetInstance()->GetService(Authentication::class);
                         <a class="nav-link" href="/home/reflection">Reflectie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/home/future">Toekomst</a>
+                        <a class="nav-link" href="/home/future">Ontwikkelingsplan</a>
                     </li>
                 </ul>
             </div>

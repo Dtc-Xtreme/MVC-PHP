@@ -16,7 +16,6 @@
                             Van jongs af aan heb ik een grote interesse in de informatica, vooral op het gebied van hardware, zoals het assembleren van pc's en kennis over netwerk- en serverhardware. Na verloop van tijd verschoof mijn interesse naar webontwikkeling en softwareontwikkeling op verschillende platformen. Ik ben enthousiast over het vergaren van uitgebreide kennis in diverse IT-domeinen. Het is altijd interessant om te weten welke stappen er nodig zijn met betrekking tot de infrastructuur bij het implementeren van een applicatie, zowel voor effecientie alsook de samenwerking verbeter.<br/><br/>
                             Ik heb een buitengewoon boeiend traject afgelegd, van het niet behalen van een middelbareschooldiploma tot het behalen van een HBO5-diploma via avondonderwijs aan de PXL, terwijl ik gedurende drie jaar in wisselende diensten werkte. Nu nadert dit traject van de bacheloropleiding zijn einde en ik kijk vol verwachting uit naar het behalen van mijn bachelordiploma. Ik heb deze uitdaging aangenomen om mijn vaardigheden te testen en te ontdekken welke mogelijkheden er nog meer zijn om te groeien. Deze ervaring heeft een diepgaande invloed gehad op mijn denkwijze en doorzettingsvermogen, en heeft me doen inzien dat je veel meer kunt bereiken dan je zou verwachten wanneer je echt gemotiveerd bent.<br/><br/>
                             Op dit moment werk ik als voorraadbeheerder bij Scania, waarbij ik verantwoordelijk ben voor het opsporen van afwijkingen in de voorraad en het identificeren van foutieve processen, zodat we deze kunnen terugkoppelen naar de juiste afdelingen en in de toekomst kunnen voorkomen. Echter, mijn passie ligt in de IT en dat is ook de richting waarin ik mezelf verder wil ontwikkelen. <br/><br/>
-                            De geselecteerde projecten omvatten MVCDTC, Blazor en het gebruik van NFC. Je kunt deze vinden bovenaan in het menu, waar ze verder worden uitgediept.
                         </p>
                     </div>
                 </div>
@@ -54,7 +53,7 @@
                         <div class="fw-bold">Inventory Controller</div>
                             Scania - Oudsbergen
                         </div>
-                        <span class="badge bg-primary rounded-pill">2003 - heden</span>
+                        <span class="badge bg-primary rounded-pill">2013 - heden</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                         <div class="ms-2 me-auto">
@@ -92,7 +91,7 @@
                         <div class="fw-bold">Bachelor - SWITCH2IT</div>
                             PXL - Hasselt
                         </div>
-                        <span class="badge bg-primary rounded-pill">2021 - heden</span>
+                        <span class="badge bg-primary rounded-pill">2021 - 2023</span>
                     </li>
 
                     <li class="list-group-item d-flex justify-content-between align-items-start">
@@ -189,6 +188,7 @@
                             <div class="p-2">
                                 <span class="badge text-bg-dark m-1">Cisco CCNA1</span>
                                 <span class="badge text-bg-dark m-1">Cisco CCNA2</span>
+                                <span class="badge text-bg-dark m-1">Ubiquiti</span>
                             </div>
                         </div>
                     </li>

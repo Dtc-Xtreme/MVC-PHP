@@ -8,7 +8,7 @@
             <h5 class="card-header text-center">Steven Kazmierczak</h5>
             <div class="row g-0">
                 <div class="col-lg-2 col-md-3 col-sm-3">
-                    <img src="/body/steven.jpg" class="w-100 p-3 rounded-circle m-auto" alt="...">
+                    <img src="/body/photo.jpg" class="w-100 p-3 rounded-circle m-auto" alt="...">
                 </div>
                 <div class="col-lg-10 col-md-9 col-sm-9">
                     <div class="card-body">
@@ -88,7 +88,7 @@
                 <ol class="list-group">
                     <li class="list-group-item d-flex justify-content-between align-items-start">
                         <div class="ms-2 me-auto">
-                        <div class="fw-bold">Bachelor - SWITCH2IT</div>
+                        <div class="fw-bold">Bachelor - Applied Computer Science</div>
                             PXL - Hasselt
                         </div>
                         <span class="badge bg-primary rounded-pill">2021 - 2023</span>
@@ -212,6 +212,19 @@
                                 <span class="badge text-bg-dark m-1">Debian</span>
                                 <span class="badge text-bg-dark m-1">Ubuntu</span>
                                 <span class="badge text-bg-dark m-1">Arch</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Tools</div>
+                            <div class="p-2">
+                                <span class="badge text-bg-dark m-1">GitHub</span>
+                                <span class="badge text-bg-dark m-1">MS Office</span>
+                                <span class="badge text-bg-dark m-1">MS Project</span>
+                                <span class="badge text-bg-dark m-1">Jira</span>
+                                <span class="badge text-bg-dark m-1">Confluence</span>
+                                <span class="badge text-bg-dark m-1">Azure DevOps</span>
                             </div>
                         </div>
                     </li>

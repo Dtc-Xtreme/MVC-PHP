@@ -6,7 +6,7 @@ use MVCDTC\Middleware\Request;
 use MVCDTC\Models\Response\Response;
 use MVCDTC\Repositories\TestRepository;
 
-class MvcdtcController extends Controller{
+class MvcDTCController extends Controller{
     public function __construct(Request $request){
         parent::__construct($request);
         $this->response->AddJavaScript("/javascript/registreren.js");        

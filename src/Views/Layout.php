@@ -29,7 +29,7 @@ $auth = Services::GetInstance()->GetService(Authentication::class);
                         <a class="nav-link" aria-current="page" href="/">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Mvcdtc">MVCDTC</a>
+                        <a class="nav-link" href="/MvcDTC">MVCDTC</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/Blazor">Blazor</a>
@@ -48,9 +48,6 @@ $auth = Services::GetInstance()->GetService(Authentication::class);
                         <a class="nav-link" href="/home/future">Ontwikkelingsplan</a>
                     </li>
 -->
-                <li class="nav-item">
-                        <a class="nav-link" href="/TestTest">Test</a>
-                    </li>
                 </ul>
             </div>
         </div>

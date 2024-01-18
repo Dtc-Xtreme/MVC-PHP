@@ -108,7 +108,7 @@ class ComposerStaticInit3f75b06bdc24e2236db4f47177cc695b
         'MVCProject\\Controllers\\ErrorController' => __DIR__ . '/../..' . '/src/Controllers/ErrorController.php',
         'MVCProject\\Controllers\\HomeController' => __DIR__ . '/../..' . '/src/Controllers/HomeController.php',
         'MVCProject\\Controllers\\InternshipController' => __DIR__ . '/../..' . '/src/Controllers/InternshipController.php',
-        'MVCProject\\Controllers\\MvcdtcController' => __DIR__ . '/../..' . '/src/Controllers/MvcdtcController.php',
+        'MVCProject\\Controllers\\MvcDTCController' => __DIR__ . '/../..' . '/src/Controllers/MvcDTCController.php',
         'MVCProject\\Controllers\\NfcController' => __DIR__ . '/../..' . '/src/Controllers/NfcController.php',
         'Monolog\\Attribute\\AsMonologProcessor' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Attribute/AsMonologProcessor.php',
         'Monolog\\DateTimeImmutable' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/DateTimeImmutable.php',

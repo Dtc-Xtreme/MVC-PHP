@@ -57,7 +57,7 @@ return array(
     'MVCProject\\Controllers\\ErrorController' => $baseDir . '/src/Controllers/ErrorController.php',
     'MVCProject\\Controllers\\HomeController' => $baseDir . '/src/Controllers/HomeController.php',
     'MVCProject\\Controllers\\InternshipController' => $baseDir . '/src/Controllers/InternshipController.php',
-    'MVCProject\\Controllers\\MvcdtcController' => $baseDir . '/src/Controllers/MvcdtcController.php',
+    'MVCProject\\Controllers\\MvcDTCController' => $baseDir . '/src/Controllers/MvcDTCController.php',
     'MVCProject\\Controllers\\NfcController' => $baseDir . '/src/Controllers/NfcController.php',
     'Monolog\\Attribute\\AsMonologProcessor' => $vendorDir . '/monolog/monolog/src/Monolog/Attribute/AsMonologProcessor.php',
     'Monolog\\DateTimeImmutable' => $vendorDir . '/monolog/monolog/src/Monolog/DateTimeImmutable.php',

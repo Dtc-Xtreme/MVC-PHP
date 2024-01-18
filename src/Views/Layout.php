@@ -29,25 +29,28 @@ $auth = Services::GetInstance()->GetService(Authentication::class);
                         <a class="nav-link" aria-current="page" href="/">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/mvcdtc">MVCDTC</a>
+                        <a class="nav-link" href="/Mvcdtc">MVCDTC</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/blazor">Blazor</a>
+                        <a class="nav-link" href="/Blazor">Blazor</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/nfc">NFC</a>
+                        <a class="nav-link" href="/Nfc">NFC</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/home/reflection">Reflectie</a>
+                        <a class="nav-link" href="/Home/reflection">Reflectie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/internship">Stage</a>
+                        <a class="nav-link" href="/Internship">Stage</a>
                     </li>
 <!--
                     <li class="nav-item">
                         <a class="nav-link" href="/home/future">Ontwikkelingsplan</a>
                     </li>
 -->
+                <li class="nav-item">
+                        <a class="nav-link" href="/TestTest">Test</a>
+                    </li>
                 </ul>
             </div>
         </div>

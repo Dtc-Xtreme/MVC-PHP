@@ -20,7 +20,7 @@ class Request{
         $this->logger = new Logger('request');
         $this->logger->pushHandler(new StreamHandler(Settings::LOGFILESPATH . 'request.log', Logger::DEBUG));
         $this->originalRequest = $_SERVER["REQUEST_URI"];
-        $this->request = strtolower(rtrim($_SERVER["REQUEST_URI"], "/"));
+        $this->request = rtrim($_SERVER["REQUEST_URI"], "/");
         $this->CreateSectionList();
     }
 

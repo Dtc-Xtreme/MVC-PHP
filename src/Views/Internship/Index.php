@@ -20,6 +20,8 @@
                         Daarnaast was het van essentieel belang om de nodige documentatie te verstrekken over hoe het systeem kan worden opgezet en de functionaliteit ervan gedetailleerd kan worden beschreven.
                         <br/><br/>
                         Wil je zelf eens proberen: <a href="https://cutting-optimizer.dtc-xtreme.net/" target="_blank">Demo</a>
+                        <br/><br/>
+                        Paper/analize: <a href="https://home.dtc-xtreme.net/body/Eindwerk_Kazmierczak_Steven.docx" target="_blank">Download</a>
                     </p>
                 </div>
             </div>

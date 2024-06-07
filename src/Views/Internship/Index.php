@@ -21,7 +21,7 @@
                         <br/><br/>
                         Wil je zelf eens proberen: <a href="https://cutting-optimizer.dtc-xtreme.net/" target="_blank">Demo</a>
                         <br/><br/>
-                        Paper/analize: <a href="https://home.dtc-xtreme.net/body/Eindwerk_Kazmierczak_Steven.docx" target="_blank">Download</a>
+                        Paper/analise: <a href="https://home.dtc-xtreme.net/body/Eindwerk_Kazmierczak_Steven.docx" target="_blank">Download</a>
                     </p>
                 </div>
             </div>

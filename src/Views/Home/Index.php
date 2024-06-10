@@ -175,7 +175,6 @@
                             <div class="fw-bold">Program Languages:</div>
                             <div class="p-2">
                                 <span class="badge text-bg-dark m-1">C#</span>
-                                <span class="badge text-bg-dark m-1">C++</span>
                                 <span class="badge text-bg-dark m-1">PHP</span>
                                 <span class="badge text-bg-dark m-1">VBA</span>
                                 <span class="badge text-bg-dark m-1">Java</span>
